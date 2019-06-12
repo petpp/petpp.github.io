@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<title>PET++</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+div.my-anchor {
+    display: block;
+    position: relative;
+    top: -160px;
+    visibility: hidden;
+}
+
+.my-accordion:hover {
+    background-color: #ccc; 
+}
+	
+div.bottom-banner {
+	background-image: url(../images/sprite_trans.png);
+	background-repeat: no-repeat; 
+	background-position: center;
+	height: 40px;
+	margin-left: auto; 
+	margin-right: auto;
+	opacity: .5;}
+
+div.bottom-banner:hover {
+	opacity: 1;}
+
+
+div.linkedin{background-position: -40px 0px; width: 40px}
+div.linkedin:hover{background-position: 0px 0px;}
+div.orcid{background-position: -40px -40px; width: 40px}
+div.orcid:hover{background-position: 0px -40px;}
+div.researchgate{background-position: -40px -80px; width: 40px}
+div.researchgate:hover{background-position: 0px -80px;}
+div.google{background-position: -80px -40px; width: 117px}
+div.google:hover{background-position: -80px 0px;}
+div.github{background-position: -40px -120px; width: 40px}
+div.github:hover{background-position: 0px -120px;}
+div.epsrc{background-position: -80px -80px; width: 117px}
+div.epsrc:hover{background-position: -80px 40px;}
+
+
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<div class="w3-bar w3-top w3-orange w3-xlarge" style="max-width:1200px">
+  <div class="w3-bar-item w3-padding-24 w3-wide">PET++: Improving Localisation, Diagnosis and Quantification in Clinical and Medical PET Imaging with Randomised Optimisation</div><br>
+  <div class="w3-bar w3-theme w3-left-align w3-large">
+    <a href="#TheProject" class="w3-bar-item w3-button w3-hover-white">The Project</a>
+    <a href="#News" class="w3-bar-item w3-button w3-hover-white">News</a>
+    <a href="#Publications" class="w3-bar-item w3-button w3-hover-white">Publications</a>
+    <a href="#Team" class="w3-bar-item w3-button w3-hover-white">Team Members</a>
+    <a href="#Contact" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a href="https://github.com/petpp" class="w3-bar-item w3-button w3-hover-white">Software</a>
+  </div>
+</div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main">
+<div style="margin-top:170px"></div>
+
+<div class="my-anchor" style="top:-170px" id='TheProject'></div>
+<h2 class="w3-padding">The Project</h2>
+<div class="w3-padding">
+Positron Emission Tomography (PET) is a pillar of modern diagnostic imaging, allowing non-invasive, sensitive and specific detection of functional changes in several disease types. In endocrinology, the precise localisation of small functioning tumours of the pituitary or adrenal glands is crucial for planning curative surgery or radiotherapy. While PET imaging shows good promise for this task, initial studies suggest significant room for improvement, with improved PET imaging and subsequent more accurate localisation opening up the possibility for more adapted therapies. In dementia, the accurate quantification of PET images is key for the early detection of disease. Improved PET imaging may allow for earlier detection of dementia while asymptomatic and increased sensitivity to assess and monitor treatment once appropriate drugs have been found.<br><br>
+    
+In this project mathematicians team up with researchers and clinicians from Addenbrooke's Hospital Cambridge, Dementias Platform UK (DPUK), GE Healthcare and University College London (UCL) for improved diagnosis and localization for tumours in endocrinology and earlier diagnosis of dementia with improved PET imaging. In particular, we investigate modern PET reconstruction approaches based on advanced mathematical methods to increase the PET image resolution and contrast, while keeping computational complexity low, thereby directly benefiting clinical workflow.
+</div>
+
+<div class="my-anchor" id='News'></div>
+<h2 class="w3-padding">News</h2>
+  <div><table class="w3-table">     
+
+    <tr><th>03/2019</th><td>EPSRC announced the funding of our project <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S026045/1">EP/S026045/1</a> on <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S026045/1">Improving Localisation, Diagnosis and Quantification in Clinical and Medical PET Imaging with Randomised Optimisation</a> to start September 2019.</td></tr>      
+
+  </table></div><div class="w3-container"></div>
+  
+    
+<div class="my-anchor" id='Publications'></div>
+<h2 class="w3-padding">Publications</h2>
+  <div><table class="w3-table">
+
+    <tr><th>2018</th><td>A. Chambolle, M. J. Ehrhardt, P. Richt&aacute;rik, C.-B. Sch&ouml;nlieb, <a href="https://epubs.siam.org/doi/abs/10.1137/17M1134834">Stochastic Primal-Dual Hybrid Gradient Algorithm with Arbitrary Sampling and Imaging Applications</a>, SIAM Journal on Optimization 28(4), 2783-2808 [<a href="[https://epubs.siam.org/doi/abs/10.1137/17M1134834">print version</a>] [<a href="https://arxiv.org/abs/1706.04957">arXiv</a>] 
+    [<a href="data/slides/201903_UCL_Ehrhardt.pdf">slides (<1MB)</a>]
+    [<a href="data/20170830_Ehrhardt.pdf">poster (2 MB)</a>] 
+    [<a href="https://github.com/mehrhardt/spdhg">software@github</a>]
+    [<a href="https://github.com/odlgroup/odl/tree/master/odl/contrib/solvers/spdhg">software@ODL</a>]</td></tr>
+
+    <tr><th></th><td>P. J. Markiewicz, M. J. Ehrhardt, K. Erlandsson, P. J. Noonan, A. Barnes, J. M Schott, D. Atkinson, S. R. Arridge, B. F. Hutton, S. Ourselin, <a href="https://link.springer.com/article/10.1007/s12021-017-9352-y">NiftyPET: A high-throughput software platform for high quantitative accuracy and precision PET imaging and analysis</a>, Neuroinformatics 16(1), 95–115 [<a href="https://link.springer.com/article/10.1007/s12021-017-9352-y">print version</a>] [<a href="https://cmiclab.cs.ucl.ac.uk/pmarkiew/NiftyPET">software</a>]</td></tr>
+      
+    <tr><th></th><td>M. J. Ehrhardt, P. J. Markiewicz, C.-B. Schönlieb, <a href="https://arxiv.org/abs/1808.07150">Faster PET Reconstruction with Non-Smooth Priors by Randomization and Preconditioning</a>, 
+    [<a href="https://arxiv.org/abs/1808.07150">arXiv</a>]
+    [<a href="data/slides/201903_UCL_Ehrhardt.pdf">slides (<1MB)</a>]
+    </td></tr>
+      
+    <tr><th>2017</th><td>M. J. Ehrhardt, P. Markiewicz, A. Chambolle, P. Richtárik, J. Schott, C.-B. Sch&ouml;nlieb, <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10394/103941O/Faster-PET-reconstruction-with-a-stochastic-primal-dual-hybrid-gradient/10.1117/12.2272946.full?SSO=1">Faster PET
+Reconstruction with a Stochastic Primal-Dual Hybrid Gradient Method</a>, Proceedings of SPIE [<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10394/103941O/Faster-PET-reconstruction-with-a-stochastic-primal-dual-hybrid-gradient/10.1117/12.2272946.full?SSO=1">SPIE library</a>] [<a href="data/20170809_Ehrhardt.pdf">preprint (2 MB)</a>] [<a href="data/20170830_Ehrhardt.pdf">poster (2 MB)</a>]</td></tr>
+      
+  </table></div><div class="w3-container"></div>
+
+
+<!-- CONFERENCES -->
+<!--<div class="my-anchor" id='Team'></div>
+<h2 class="w3-padding">Presentations</h2>
+  <div><table class="w3-table">
+    <tr><th>2019</th><td> # <a href="http://cip.cs.ucl.ac.uk/home/">Center for Inverse Problems Seminar, UCL</a>, London, UK. <i>A Randomized Algorithm for Convex Optimization and Medical Imaging Applications</i> [<a href="data/slides/201903_UCL_Ehrhardt.pdf">slides (<1MB)</a>]</td></tr>
+  </table></div><div class="w3-container"></div>-->
+
+    
+<div class="my-anchor" id='Team'></div>
+<h2 class="w3-padding">Team Members</h2>
+
+    <h3 class="w3-padding">Project Leads</h3>
+    <ul>        
+    <li><a href="http://www.damtp.cam.ac.uk/user/cbs31/Home.html">Carola-Bibiane Schönlieb</a>, University of Cambridge</li>
+    <li><a href="https://mehrhardt.github.io">Matthias J. Ehrhardt</a>, University of Bath</li>
+    </ul>
+    
+    <h3 class="w3-padding">Medical and Clinical Project Team</h3>
+    <ul>
+    <li><a href="https://www.neuroscience.cam.ac.uk/directory/profile.php?fia20">Franklin Aigbirhio</a>, University of Cambridge</li>
+    <li><a href="https://www.neuroscience.cam.ac.uk/directory/profile.php?mg299">Mark Gurnell</a>, University of Cambridge, Addenbrookes' Hospital</li>
+    <li>Iosif Mendichovsky, Addenbrookes' Hospital</li>
+    </ul>
+    
+    <h3 class="w3-padding">Researchers</h3>
+     <ul>
+    <li>TBC</li>
+    <li>TBC</li>
+    </ul>
+    
+    <h3 class="w3-padding">Project Collaborators</h3>
+    <ul>
+    <li><a href="https://radiology.medschl.cam.ac.uk/about-us/departmental-staff/research-staff/dr-martin-j-graves/">Martin Graves</a>, University of Cambridge</li>
+    <li><a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=PJMAR17">Pawel Markiewicz</a>, University College London</li>
+    <li><a href="https://www.neuroscience.cam.ac.uk/directory/profile.php?jto27">John O'Brien</a>, University of Cambridge</li>
+    <li><a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=KTHIE60">Kris Thielemans Markiewicz</a>, University College London</li>
+    </ul>
+    
+    <h3 class="w3-padding">Advisory Board</h3>
+    <ul>
+    <li><a href="http://www.ibme.ox.ac.uk/research/biomedia/people/professor-alison-noble">Alison Noble</a>, University of Oxford</li>
+    <li><a href="https://www.kth.se/profile/ozan">Ozan Öktem</a>, KTH Stockholm</li>
+    <li><a href="https://www.kcl.ac.uk/people/andrew-reader">Andrew Reader</a>, Kings College London</li>
+    <li><a href="http://www.siltanen-research.net/">Samuli Siltanen</a>, University of Helsinki</li>
+    </ul>   
+    
+<div class="my-anchor" id='Contact'></div>
+<h2 class="w3-padding">Contact</h2>
+	<div class="w3-row-padding">
+        
+    <div class="w3-col w3-justify m6 l6">      
+        <p><b><a href="http://www.damtp.cam.ac.uk/user/cbs31/Home.html">Carola-Bibiane Schönlieb</b></a><br>
+            <a href="mailto:cbs31@cam.ac.uk">cbs31@cam.ac.uk</a><br>
+            University of Cambridge, UK
+        </p>
+    </div>
+        
+    <div class="w3-col w3-justify m6 l6">      
+        <p><b><a href="https://mehrhardt.github.io">Matthias J. Ehrhardt</b></a><br>
+            <a href="mailto:m.ehrhardt@bath.ac.uk">m.ehrhardt@bath.ac.uk</a><br>
+            University of Bath, UK
+        </p>
+    </div>
+    
+    </div>
+    
+    
+ 
+<!-- Footer -->
+<div class="w3-padding-16 w3-light-grey">
+	<div class="w3-padding" style="width:60%; margin:auto">
+
+		<div class="w3-container w3-cell" style="width:20%"><a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S026045/1"><div class="bottom-banner epsrc"></div></a></div>
+
+        <div class="w3-container w3-cell" style="width:20%"><a href="https://github.com/petpp"><div class="bottom-banner github"></div></a></div>
+
+	</div>
+</div>
+
+<div class="w3-orange w3-center w3-padding-24">&copy; 2019 PET++ team - last updated: June 2019</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+var acc = document.getElementsByClassName("my-accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display !== "none") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+</body>
+</html>
+
